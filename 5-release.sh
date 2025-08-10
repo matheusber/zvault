@@ -19,8 +19,4 @@ cd zvio-build
 
 make release
 
-#echo aogra manda make zvault
-
-#exit 0
-
 log_print $TAG_SRC $LOG $DATE Final
