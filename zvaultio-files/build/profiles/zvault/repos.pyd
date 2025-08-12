@@ -1,5 +1,6 @@
 #+
 # Copyright (c) 2010-2015 iXsystems, Inc., All rights reserved.
+# Updates (c) 2024-2024 zVault.io
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -24,68 +25,58 @@
 #
 
 repos += {
-    "name": "os",
-    "path": "os",
-#    "url": "https://github.com/freenas/os.git",
-    "url": "http://10.1.7.92:3000/local/zvio-os.git",
-#    "branch": "truenas/13.3-stable"
+    "name": "zvio-os",
+    "path": "zvio-os",
+    "url": "http://10.1.7.92:3000/local/zvio-os",
     "branch": "zvio-13.3"
 }
 
 repos += {
-    "name": "freenas",
-    "path": "freenas",
-#    "url": "http://github.com/freenas/freenas.git",
-    "url": "http://10.1.7.92:3000/local/zvio-middleware.git",
-#    "branch": "truenas/13.3-stable"
+    "name": "zvio-middleware",
+    "path": "zvio-middleware",
+    "url": "http://10.1.7.92:3000/local/zvio-middleware",
     "branch": "zvio-13.3"
 }
 
 
 repos += {
-    "name": "webui",
-    "path": "webui",
-    "url": "http://10.1.7.92:3000/local/zvio-webui.git",
-#    "branch": "truenas/13.3-stable"
+    "name": "zvio-webui",
+    "path": "zvio-webui",
+    "url": "http://10.1.7.92:3000/local/zvio-webui",
     "branch": "zvio-13.3"
 }
 
 repos += {
-    "name": "ports",
-    "path": "ports",
+    "name": "zvio-ports",
+    "path": "zvio-ports",
     "url": "http://10.1.7.92:3000/local/zvio-ports.git",
-#    "branch": "truenas/13.3-stable"
     "branch": "zvio-13.3"
 }
 
 repos += {
-    "name" :"py-licenselib",
-    "path": "py-licenselib",
+    "name" :"zvio-py-licenselib",
+    "path": "zvio-py-licenselib",
     "url": "http://10.1.7.92:3000/local/zvio-py-licenselib.git",
-#    "branch": "master"
     "branch": "zvio-13.3"
 }
 
 repos += {
-    "name": "freenas-pkgtools",
-    "path": "freenas-pkgtools",
+    "name": "zvio-pkgtools",
+    "path": "zvio-pkgtools",
     "url": "http://10.1.7.92:3000/local/zvio-pkgtools.git",
-#    "branch": "master"
     "branch": "zvio-13.3"
 }
 
 repos += {
-    "name": "py-bsd",
-    "path": "py-bsd",
+    "name": "zvio-py-bsd",
+    "path": "zvio-py-bsd",
     "url": "http://10.1.7.92:3000/local/zvio-py-bsd.git",
-#    "branch": "master"
     "branch": "zvio-13.3"
 }
 
 repos += {
-    "name": "iocage",
-    "path": "iocage",
+    "name": "zvio-iocage",
+    "path": "zvio-iocage",
     "url": "http://10.1.7.92:3000/local/zvio-iocage.git",
-#    "branch": "truenas/13.0-stable"
     "branch": "zvio-13.3"
 }

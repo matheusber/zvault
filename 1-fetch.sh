@@ -14,8 +14,8 @@ mkdir -p $ZVAULT_HOME
 
 cd $ZVAULT_HOME
 
-# clone the zvaultio build repo
-git clone --depth=1 $GIT_REPO 
+# clone the zvaultio build repo, to the especified branch
+git clone -b $TAG_SRC --depth=1 $GIT_REPO 
 
 cd zvio-build
 
@@ -25,8 +25,8 @@ CURRENT_DIR=`pwd`
 echo $ZVAULT_HOME
 echo $CURRENT_DIR
 
-# As told in the guide, "switch to the zvio-13.3 branch"
-git checkout -b $TAG_SRC
+## As told in the guide, "switch to the zvio-13.3 branch"
+#git checkout -b $TAG_SRC
 
 exit 0
 #########################

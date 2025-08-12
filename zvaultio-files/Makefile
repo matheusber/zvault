@@ -44,7 +44,7 @@ PROFILE_SETTING = ${BUILD_ROOT}/build/profiles/profile-setting
 . if exists(${PROFILE_SETTING})
 PROFILE != cat ${PROFILE_SETTING}
 . else
-PROFILE := freenas
+PROFILE := zvault
 . endif
 .endif
 
@@ -117,7 +117,6 @@ bootstrap-pkgs:
 	pkg install -y lang/python3
 	pkg install -y lang/python
 	pkg install -y ports-mgmt/poudriere-devel
-	pkg install -y devel/git
 	pkg install -y devel/gmake
 	pkg install -y archivers/pigz
 	python -m ensurepip
