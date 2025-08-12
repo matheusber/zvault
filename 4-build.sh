@@ -17,6 +17,6 @@ pwd
 cd $ZVAULT_HOME
 cd zvio-build
 
-make freenas
+make zvault
 
 log_print $TAG_SRC $LOG $DATE Final

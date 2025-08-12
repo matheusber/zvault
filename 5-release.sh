@@ -17,6 +17,6 @@ pwd
 cd $ZVAULT_HOME
 cd zvio-build
 
-make release
+make release PROFILE=zvault PRODUCT=zVault Train=zVault-13
 
 log_print $TAG_SRC $LOG $DATE Final
