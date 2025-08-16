@@ -1,7 +1,6 @@
 #!/bin/sh
 
-ARCH=ARM64
-VERSION="25.7"
+ARCH=AMD64
 TAG_SRC="zvio-13.3"
 
 SRC_DIR=zvaultio-files
@@ -26,17 +25,6 @@ log_print () {
  DATE_FUNC=$3
  STATE=$4
 
- echo -n "$SCRIPT $TAG_SRC_FUNC $DEVICE $IMAGE_SIZE $STATE: $(printf '\t')" >> $LOG_FILE
+ echo -n "$SCRIPT $TAG_SRC_FUNC $ARCH $STATE: $(printf '\t')" >> $LOG_FILE
  date  $DATE_FUNC >> $LOG_FILE
 }
-
-############################
-TAG_CORE="25.7.1-local"
-TAG_PLUGINS="25.7.1"
-TAG_PORTS="25.7.1"
-
-
-
-ROOTDIR=/usr
-DEVICE=ARM64
-IMAGE_SIZE=3G

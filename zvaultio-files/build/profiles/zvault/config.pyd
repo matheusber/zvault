@@ -35,8 +35,7 @@ profile = {
     "status": "active"
 }
 
-#kernel_config = "${PROFILE_ROOT}/kernel/ZVAULT.amd64"
-kernel_config = "${PROFILE_ROOT}/kernel/ZVAULT.arm64"
+kernel_config = "${PROFILE_ROOT}/kernel/ZVAULT.#CHANGE_HERE#"
 
 kernel_modules = [
     "autofs",
