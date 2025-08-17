@@ -14,6 +14,9 @@ log_print $TAG_SRC $LOG $DATE Inicio
 
 make bootstrap-pkgs
 
+# Update pip as suggested by install script
+pip3 install --upgrade pip
+
 log_print $TAG_SRC $LOG $DATE Final
 
 exit 0
